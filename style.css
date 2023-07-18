@@ -116,7 +116,7 @@ img {
 }
 
 
-/*----------CONTAINER----------*/
+/*------------------------CONTAINER-----------------------*/
 
 .container{
     max-width: 130rem;
@@ -124,7 +124,7 @@ img {
     margin: 0 auto;
 }
 
-/*----------HEADER----------*/
+/*----------------------HEADER---------------------*/
 
 .header{
     background: #2b2b2b;
@@ -250,3 +250,72 @@ img {
         display: block;
     }
 }
+
+/*--------BANNER---------*/
+
+.banner{
+    background: #ffffff;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+
+.banner .banner__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+}
+.banner .banner__text h1{
+    font-size: 11rem;
+    font-weight: 800;
+    color: #ffa700;
+    line-height: 1.2;
+}
+.banner .banner__text p{
+    margin: 5rem 0;
+    max-width: 50rem;
+    text-align: justify;
+}
+
+@media screen and (max-width:500px){
+    .banner .banner__wrapper{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .banner .banner__wrapper .banner__text{
+        order: 2;
+    }
+    .banner .banner__wrapper img{
+        width: 20rem;
+        margin: 0 auto;
+    }
+}
+
+/*---------------REPEATABLE PATTERNS-----------------*/
+
+.btn{
+    display: inline-block;
+    padding: 1.5rem 1.5rem;
+    border-radius: 5rem;
+    border: 1px solid transparent;
+}
+
+.btn.yellow{
+    background: #ffa700;
+    color: #ffffff;
+}
+.btn.yellow:hover{
+    background: #2b2b2b;
+    border: 1px solid #ffa700;
+    color: #ffa700;
+}
+
+/* .btn.dark{
+    background: #2b2b2b;
+    color: #ffffff;
+}  
+
+.btn.dark:hover{
+    background: #ffffff;
+    border: 1px solid #2b2b2b;
+    color: #2b2b2b;
+}   */
