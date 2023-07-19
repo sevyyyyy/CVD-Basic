@@ -690,6 +690,32 @@ img {
     }
 }
 
+/*-------------------------------------------------------------ABOUTME2-----------------------------------------------------------------------*/
+
+.aboutme2{
+    background: #ffffff;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+
+.aboutme2 .aboutme2__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+}
+.aboutme2 .aboutme2__item h1{
+    font-size: 11rem;
+    font-weight: 800;
+    color: #ffa700;
+    line-height: 1.2;
+    margin-bottom: 5rem;
+}
+.aboutme2 .aboutme2__text p{
+    margin-top: 1rem;
+    max-width: 50rem;
+    text-align: justify;
+}
+
 /*-------------------------------------------------------------REPEATABLE PATTERNS-----------------------------------------------------------------------*/
 
 .btn{
@@ -739,5 +765,4 @@ img {
     background: #2b2b2b;
     border: 1px solid #2b2b2b;
     color: #ffffff;
-} 
-
+}
