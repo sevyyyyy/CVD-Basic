@@ -551,7 +551,7 @@ img {
         gap: 1rem;
     }
 }
-/*------------------------------------------------------------------UPDATES-----------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------UPDATES-----------------------------------------------------------------------------*/
 
 .updates{
     background: #ffffff ;
@@ -569,6 +569,9 @@ img {
     grid-gap: 5rem;
     margin-top: 10rem;
 }
+
+/*------------------------------------------------------------------UPDATES LEFT-------------------------------------------------------------------------*/
+
 .updates .updates__left__item:first-child{
     padding-bottom: 5rem;
     border-bottom: 1px solid gray;
@@ -580,7 +583,7 @@ img {
 .updates .updates__left__item:last-child{
     padding: 5rem 0;
 }
-.updates .updates__wrapper img{
+.updates .updates__wrapper .updates__left__item img{
     width: 100%;
 }
 .updates .updates__left__item ul{
@@ -608,6 +611,83 @@ img {
 }
 .updates .updates__left__item__text a{
     color: #ffa700;
+}
+
+/*-------------------------------------------------------------------UPDATES RIGHT-----------------------------------------------------------------------*/
+
+.updates__right__item h3{
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+.updates__right__item table{
+    width: 100%;
+}
+.updates__right__item table tr td:last-child{
+    text-align: right;
+}
+.updates__right__item table tr{
+    height: 8rem;
+}
+.updates__right__item table tr td{
+    font-size: 2rem;
+}
+.updates .updates__right__item:first-child{
+    padding-bottom: 5rem;
+    border-bottom: 1px solid gray;
+}
+.updates .updates__right__item:not(:first-child,:last-child){
+    padding: 5rem 0;
+    border-bottom: 1px solid red;
+}
+.updates .updates__right__item:last-child{
+    padding: 5rem 0;
+}
+.updates .updates__right__item__content{
+    display: flex;
+    gap: 2rem;
+}
+.updates .updates__right__item__content:not(:first-child){
+    margin-top: 5rem;
+}
+.updates .updates__right__text h4{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.updates .updates__right__btn a{
+    margin: 1.5rem;
+}
+
+@media screen and (max-width:500px){
+    .updates .updates__title{
+        text-align: center;
+    }
+    .updates .updates__wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .updates .updates__left__item ul li{
+        font-size: 1.1rem;
+    }
+    .updates .updates__left__item__text{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .updates .updates__left__item__text p{
+        text-align: justify;
+    }
+    .updates .updates__right__item{
+        margin: 0 2rem;
+    }
+    .updates .updates__right__item h3{
+        text-align: center;
+    }
+    .updates .updates__right__btn{
+        text-align: center;
+    }
 }
 
 /*-------------------------------------------------------------REPEATABLE PATTERNS-----------------------------------------------------------------------*/
@@ -647,4 +727,17 @@ img {
     background: #ffa700;
     border: 1px solid #2b2b2b;
     color: #2b2b2b;
+} 
+
+.btn.light{
+    background: #ffffff;
+    color: #2b2b2b;
+    border: 1px solid #2b2b2b;
 }  
+
+.btn.light:hover{
+    background: #2b2b2b;
+    border: 1px solid #2b2b2b;
+    color: #ffffff;
+} 
+
