@@ -116,7 +116,7 @@ img {
 }
 
 
-/*------------------------CONTAINER-----------------------*/
+/*------------------------------------------------------------------CONTAINER----------------------------------------------------------------------------*/
 
 .container{
     max-width: 130rem;
@@ -124,7 +124,7 @@ img {
     margin: 0 auto;
 }
 
-/*----------------------HEADER---------------------*/
+/*--------------------------------------------------------------------HEADER-----------------------------------------------------------------------------*/
 
 .header{
     background: #2b2b2b;
@@ -251,7 +251,7 @@ img {
     }
 }
 
-/*--------BANNER---------*/
+/*--------------------------------------------------------------------BANNER-----------------------------------------------------------------------------*/
 
 .banner{
     background: #ffffff;
@@ -300,7 +300,7 @@ img {
     }
 }
 
-/*---------------HM SERVICES-----------------*/
+/*------------------------------------------------------------------HMSERVICES---------------------------------------------------------------------------*/
 
 .hm-services{
     padding: 10rem 0;
@@ -342,7 +342,7 @@ img {
     }
 }
 
-/*---------------ABOUT ME-----------------*/
+/*------------------------------------------------------------------ABOUTME-----------------------------------------------------------------------------*/
 
 .aboutme{
     padding: 5rem 0;
@@ -399,7 +399,7 @@ img {
 }
 
 
-/*---------------LTRENDS-----------------*/
+/*------------------------------------------------------------------LTRENDS-----------------------------------------------------------------------------*/
 
 .ltrends{
     padding: 5rem;
@@ -467,7 +467,7 @@ img {
     }
 }
 
-/*---------------FOOT-----------------*/
+/*----------------------------------------------------------------------FOOT-----------------------------------------------------------------------------*/
 
 .foot{
     padding: 5rem 0;
@@ -506,7 +506,7 @@ img {
     }
 }
 
-/*---------------FOOTER-----------------*/
+/*-------------------------------------------------------------------FOOTER------------------------------------------------------------------------------*/
 
 .footer{
     background: #2b2b2b;
@@ -515,10 +515,10 @@ img {
 .footer p{
     color: gray;
 }
-.footer .foot__wrapper{
+.footer .footer__wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .footer .footer__left{
     display: flex;
@@ -546,13 +546,71 @@ img {
         flex-direction: column;
         gap: 1rem;
     }
-    .footer .foot__wrapper{
+    .footer .footer__wrapper{
         flex-direction: column;
         gap: 1rem;
     }
 }
+/*------------------------------------------------------------------UPDATES-----------------------------------------------------------------------------*/
 
-/*---------------REPEATABLE PATTERNS-----------------*/
+.updates{
+    background: #ffffff ;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+.updates .updates__title h1{
+    font-size: 5rem;
+    color: #ffa700;
+    font-weight: 600;
+}
+.updates .updates__wrapper{
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-gap: 5rem;
+    margin-top: 10rem;
+}
+.updates .updates__left__item:first-child{
+    padding-bottom: 5rem;
+    border-bottom: 1px solid gray;
+}
+.updates .updates__left__item:not(:first-child,:last-child){
+    padding: 5rem 0;
+    border-bottom: 1px solid red;
+}
+.updates .updates__left__item:last-child{
+    padding: 5rem 0;
+}
+.updates .updates__wrapper img{
+    width: 100%;
+}
+.updates .updates__left__item ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin: 1rem 0;
+}
+.updates .updates__left__item ul li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.updates .updates__left__item__text{
+    margin-top: 5rem;
+}
+.updates .updates__left__item__text h2{
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.updates .updates__left__item__text p{
+    margin: 3rem 0;
+    text-align: justify;
+}
+.updates .updates__left__item__text a{
+    color: #ffa700;
+}
+
+/*-------------------------------------------------------------REPEATABLE PATTERNS-----------------------------------------------------------------------*/
 
 .btn{
     display: inline-block;
