@@ -831,6 +831,52 @@ img {
     }
 }
 
+/*------------------------------------------------------------------CONTACT------------------------------------------------------------------------------*/
+
+.contact{
+    background: #2b2b2b;
+    padding-top: 13rem;
+}
+.contact .contact__title h1{
+    color: #ffa700;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.contact .contact__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10rem;
+    align-items: center;
+}
+.contact .contact__left{
+
+}
+.contact .contact__left p{
+color: #ffffff;
+margin-top: 5rem;
+margin-bottom: 5rem;
+}
+.contact .contact__left table{
+color: #ffffff;
+}
+.contact .contact__icons ul{
+display: unset;
+display: flex;
+margin-top: 3rem;
+gap: 2rem;
+font-size: 2.5rem;
+}
+.contact .contact__icons ul li a{
+color: #ffffff;
+}
+.contact .contact__right form{
+display: flex;
+flex-direction: column;
+}
+.contact .contact__right a{
+    display:flex;
+}
+
 /*-------------------------------------------------------------REPEATABLE PATTERNS-----------------------------------------------------------------------*/
 
 .btn{
@@ -881,3 +927,4 @@ img {
     border: 1px solid #2b2b2b;
     color: #ffffff;
 }
+
