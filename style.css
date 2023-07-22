@@ -1013,9 +1013,9 @@ img {
         grid-template-columns: 1fr;
         align-items: center;
         justify-content: center;
-        gap: 25rem;
+        gap: 10rem;
         padding-top: 10rem;
-        margin: 0 2rem;
+
     }
     .services .services__text h1{
         display: flex;
@@ -1023,6 +1023,14 @@ img {
     }
     .services .services__text{
         order: 2;
+        margin: 0 5rem;
+    }
+    .services .services__text p{
+        justify-content: center;
+    }
+    .services .services__section img{
+        width: 40rem;
+        margin-left: 5rem;
     }
 
 }
